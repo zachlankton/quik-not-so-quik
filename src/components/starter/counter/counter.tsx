@@ -22,6 +22,7 @@ export default component$(() => {
       </button>
       <Gauge value={count.value} />
       <button
+        id="quik-test-button"
         class="button-dark button-small"
         onClick$={() => setCount(count.value + 1)}
       >

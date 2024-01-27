@@ -26,6 +26,7 @@ export default component$(() => {
       </head>
       <body lang="en">
         <RouterOutlet />
+        <script src="/testQuik.js"></script>
       </body>
     </QwikCityProvider>
   );

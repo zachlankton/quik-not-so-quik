@@ -32,7 +32,9 @@ export default component$(({ value = 50 }: { value?: number }) => {
           }, 351.858; fill:none; transform-origin:50% 50%; stroke-linecap:round; stroke:url(#gradient)`}
         ></circle>
       </svg>
-      <span class={styles.value}>{safeValue}</span>
+      <span id="quik-test-value" class={styles.value}>
+        {safeValue}
+      </span>
     </div>
   );
 });
